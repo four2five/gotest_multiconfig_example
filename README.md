@@ -6,6 +6,7 @@ Running "go test" in the simple_stringutil/ directory succeeds, as expected.
 Running "go test -v" yields this error:
 
 joseph:simple_stringutil$ go test -v
+
 === RUN   TestReverse
 flag provided but not defined: -test.v
 Usage of /var/folders/24/vx7zzdy56wzf64sz7kw57hyh0000gp/T/go-build006013306/github.com/four2five/simple_stringutil/_test/simple_stringutil.test:
