@@ -2,7 +2,9 @@
 An example showing an issue that surfaces when using ginkgo in conjunction with go test.
 
 Running "go test" in the simple_stringutil/ directory succeeds, as expected.
+
 Running "go test -v" yields this error:
+
 joseph:simple_stringutil$ go test -v
 === RUN   TestReverse
 flag provided but not defined: -test.v
